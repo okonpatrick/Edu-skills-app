@@ -74,16 +74,6 @@ const Sidebar = ({ onSkillClick }) => {
             }`}
             id="submenu"
           >
-            {/* <h1 className="cursor-pointer p-2 hover:bg-blue-600 rounded-md mt-1">
-            All
-          </h1>
-          <h1 className="cursor-pointer p-2 hover:bg-blue-600 rounded-md mt-1">
-            Soft Skills
-          </h1>
-          
-          <h1 className="cursor-pointer p-2 hover:bg-blue-600 rounded-md mt-1">
-           Tech Skills
-          </h1> */}
             <ul>
               {skills.map((skill) => (
                 <h1 key={1}>

@@ -1,14 +1,9 @@
-
 import './App.css'
-//import Navbar from './Components/Navbar';
 import Footer from "./Components/Footer"
 import { useState } from 'react';
-//import DashboardCard from './Components/DashboardCard';
-import usersData from './Components/ObjectData';
+//import usersData from './Components/ObjectData';
 import Sidebar from './Components/Navbar';
-
 import CardList from './Components/DashboardCard';
-
 
 function App() {
 
