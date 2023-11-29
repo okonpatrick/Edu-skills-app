@@ -4,6 +4,9 @@ import { useState } from 'react';
 //import usersData from './Components/ObjectData';
 import Sidebar from './Components/Navbar';
 import CardList from './Components/DashboardCard';
+import SignIn from './Components/SignIn';
+
+ 
 
 function App() {
 
@@ -15,19 +18,17 @@ function App() {
 
   return (
     <>
-      {/* <Navbar onSkillClick={handleSkillClick}/ > */}
-      <Sidebar onSkillClick={handleSkillClick} />
+   
+   <SignIn/>
+   <Sidebar onSkillClick={handleSkillClick} />
 
       <div className='flex ml-20 pl-20'>
-      {/* <DashboardCard selectedSkill={selectedSkill}/> */}
       <CardList selectedSkill={selectedSkill} />
       <div className='pl-10'>
-      {/* <DashboardCard selectedSkill={selectedSkill}/>    */}
       </div>
       </div>
-
-      <Footer/>
-    </>
+      <Footer/> 
+    </> 
   )
 }
 

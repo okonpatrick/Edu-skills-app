@@ -70,3 +70,20 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+
+/* Default layout for screens wider than 768px */
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap; /* Prevent wrapping to new lines */
+  transition: .3s;
+}
+
+/* Break the flex layout at 768px */
+@media (max-width: 768px) {
+  .flex-container {
+    flex-direction: column; /* Stack cards vertically */
+    flex-wrap: wrap; /* Allow wrapping to new lines */
+  }
+}

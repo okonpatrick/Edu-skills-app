@@ -23,24 +23,24 @@ const usersData = [
       name: 'Jane Smith',
       skills: ['TechSkills'],
     },
-    {
-      id: 3,
-      image: DataAnalysis,
-      name: 'Bob Johnson',
-      skills: ['TechSkills'],
-    },
-    {
-      id: 4,
-      image: PythonPro,
-      name: 'Alice Williams',
-      skills: ['TechSkills'],
-    },
-    {
-      id: 5,
-      image: AiImage,
-      name: 'Charlie Brown',
-      skills: ['TechSkills'],
-    },
+    // {
+    //   id: 3,
+    //   image: DataAnalysis,
+    //   name: 'Bob Johnson',
+    //   skills: ['TechSkills'],
+    // },
+    // {
+    //   id: 4,
+    //   image: PythonPro,
+    //   name: 'Alice Williams',
+    //   skills: ['TechSkills'],
+    // },
+    // {
+    //   id: 5,
+    //   image: AiImage,
+    //   name: 'Charlie Brown',
+    //   skills: ['TechSkills'],
+    // },
 
     //SoftSkills
     {
@@ -57,19 +57,19 @@ const usersData = [
         skills: ['SoftSkills'],
       },
 
-      {
-        id: 8,
-        image: Photography,
-        name: 'Bob Johnson',
-        skills: ['SoftSkills'],
-      },
+    //   {
+    //     id: 8,
+    //     image: Photography,
+    //     name: 'Bob Johnson',
+    //     skills: ['SoftSkills'],
+    //   },
 
-      {
-        id: 9,
-        image: DigitalMarketing,
-        name: 'Smith Williams',
-        skills: ['SoftSkills'],
-      },
+    //   {
+    //     id: 9,
+    //     image: DigitalMarketing,
+    //     name: 'Smith Williams',
+    //     skills: ['SoftSkills'],
+    //   },
     // Add more users as needed
   ];
   

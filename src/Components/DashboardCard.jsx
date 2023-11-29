@@ -1,6 +1,6 @@
 import usersData from "./ObjectData"
 import Sidebar from "./Navbar"
-//import App from "../App";
+import { useEffect } from "react";
 
 // CardList.js
 
@@ -8,14 +8,17 @@ const CardList = ({ selectedSkill }) => {
   const filteredUsers = selectedSkill === 'ALL'
     ? usersData
     : usersData.filter(user => user.skills.includes(selectedSkill));
-
+    
   return (
     <div>
-      <h1 className="p-5 font-bold">Card List</h1>
+
+<h1 className="p-4 font-bold">Card List</h1>
+
+    <div className="pl-20 flex-container">
       {filteredUsers.map((user) => (
+        
         <div key={user.id}>
-          <div className="p-5 flex">
-   
+          <div className="p-4 flex">
    <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
      <a href="#">
        <img className="rounded-t-lg" src={user.image} alt="" />
@@ -56,7 +59,8 @@ const CardList = ({ selectedSkill }) => {
    </div>
 
         </div>
-      ))}
+      ),[])}
+    </div>
     </div>
   );
 };
